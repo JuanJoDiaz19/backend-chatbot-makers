@@ -56,20 +56,21 @@ export class CategoryService {
 
   async seed(){ 
     this.create({
-        name: "Laptops"
+      name: "Laptops"
     });
-      
+    
     this.create({
-        name: "Monitores"
+        name: "Monitors"
     });
-      
+    
     this.create({
-        name: "Accesorios"
+        name: "Accessories"
     });
-      
+    
     this.create({
-        name: "Componentes"
+        name: "Components"
     });
+  
       
   }
 }

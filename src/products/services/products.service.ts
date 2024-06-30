@@ -63,94 +63,95 @@ export class ProductsService {
 
   async seed() {
     this.create({
-      name: "Computadora HP pavilion 15",
+      name: "HP Pavilion 15 Laptop",
       quantity: 10,
-      characteristics: "Bastante veloz",
+      characteristics: "Quite fast",
       price: 45000,
       score: 4.5,
       categoryName: "Laptops"
     });
     
     this.create({
-      name: "Monitor Samsung 24 pulgadas",
+      name: "Samsung 24-inch Monitor",
       quantity: 25,
-      characteristics: "Alta resolución y buena frecuencia de actualización",
+      characteristics: "High resolution and good refresh rate",
       price: 12000,
       score: 4.7,
-      categoryName: "Monitores"
+      categoryName: "Monitors"
     });
     
     this.create({
-      name: "Teclado Mecánico Razer",
+      name: "Razer Mechanical Keyboard",
       quantity: 50,
-      characteristics: "Retroiluminación RGB y switches mecánicos",
+      characteristics: "RGB backlighting and mechanical switches",
       price: 7000,
       score: 4.8,
-      categoryName: "Accesorios"
+      categoryName: "Accessories"
     });
     
     this.create({
-      name: "Mouse Inalámbrico Logitech",
+      name: "Logitech Wireless Mouse",
       quantity: 40,
-      characteristics: "Precisión y duración de batería prolongada",
+      characteristics: "Precision and long battery life",
       price: 3500,
       score: 4.6,
-      categoryName: "Accesorios"
+      categoryName: "Accessories"
     });
     
     this.create({
-      name: "Auriculares Sony WH-1000XM4",
+      name: "Sony WH-1000XM4 Headphones",
       quantity: 15,
-      characteristics: "Cancelación de ruido de alta calidad",
+      characteristics: "High-quality noise cancellation",
       price: 22000,
       score: 4.9,
-      categoryName: "Accesorios"
+      categoryName: "Accessories"
     });
     
     this.create({
-      name: "Impresora Epson EcoTank L3150",
+      name: "Epson EcoTank L3150 Printer",
       quantity: 20,
-      characteristics: "Impresión económica y eficiente",
+      characteristics: "Economic and efficient printing",
       price: 15000,
       score: 4.4,
-      categoryName: "Componentes"
+      categoryName: "Components"
     });
     
     this.create({
-      name: "Tablet Apple iPad Air",
+      name: "Apple iPad Air Tablet",
       quantity: 30,
-      characteristics: "Pantalla Retina y potente chip A14",
+      characteristics: "Retina display and powerful A14 chip",
       price: 60000,
       score: 4.8,
       categoryName: "Laptops"
     });
     
     this.create({
-      name: "Disco Duro Externo Seagate 2TB",
+      name: "Seagate 2TB External Hard Drive",
       quantity: 60,
-      characteristics: "Gran capacidad de almacenamiento y portabilidad",
+      characteristics: "Large storage capacity and portability",
       price: 5000,
       score: 4.6,
-      categoryName: "Componentes"
+      categoryName: "Components"
     });
     
     this.create({
-      name: "Smartwatch Garmin Forerunner 245",
+      name: "Garmin Forerunner 245 Smartwatch",
       quantity: 25,
-      characteristics: "Ideal para seguimiento de actividad física",
+      characteristics: "Ideal for activity tracking",
       price: 28000,
       score: 4.7,
-      categoryName: "Accesorios"
+      categoryName: "Accessories"
     });
     
     this.create({
-      name: "Cámara Canon EOS M50",
+      name: "Canon EOS M50 Camera",
       quantity: 10,
-      characteristics: "Cámara mirrorless con alta calidad de imagen",
+      characteristics: "Mirrorless camera with high image quality",
       price: 85000,
       score: 4.9,
-      categoryName: "Componentes"
+      categoryName: "Components"
     });
+    
     
   }
 }
